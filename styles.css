@@ -1,0 +1,37 @@
+.navMenu{
+  margin-right:180px;
+}
+
+.group1{
+  position: relative;
+}
+
+.img1{
+}
+.pill{
+  background-color: #4c6cd4;
+  height: 400px;
+  width: 10000px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.pill2{
+  background-color: #4c6cd4;
+  height: 400px;
+  width: 10000px;
+  position: absolute;
+  top: 90%;
+  right: 65%;
+}
+
+@media (max-width: 768px){
+  .pill{
+    height: 250px;
+    top:20%;
+  }
+  .pill2{
+    height: 250px;
+    top:20%;
+  }
+}
