@@ -6,14 +6,18 @@
   position: relative;
 }
 
-.img1{
+.imagen{
+  position:relative;
+  top: -40%;
+  left: -150px;
+  
 }
 .pill{
   background-color: #4c6cd4;
   height: 400px;
   width: 10000px;
-  position: absolute;
-  top: 30%;
+  position: relative;
+  top:150px;;
   left: 30%;
 }
 .pill2{
