@@ -1,5 +1,5 @@
 .navMenu{
-  margin-right:180px;
+  margin-right:100px;
 }
 
 .group1{
@@ -8,7 +8,7 @@
 
 .imagen{
   position:relative;
-  top: -40%;
+  top: -20%;
   left: -150px;
   
 }
@@ -17,18 +17,61 @@
   height: 400px;
   width: 10000px;
   position: relative;
-  top:150px;;
+  top:100px;
   left: 30%;
+}
+
+.imgFeat{
+position: relative;
+bottom: 80px;
+left: 800px;
+}
+.imgFeat2{
+  position: relative;
+  bottom: 130px;
+  left: 910px;
+}
+.imgFeat3{
+  position: relative;
+  bottom: 130px;
+  left: 920px;
 }
 .pill2{
   background-color: #4c6cd4;
-  height: 400px;
-  width: 10000px;
+  height: 350px;
+  width: 1300px;
   position: absolute;
   top: 90%;
-  right: 65%;
+  right:55%;
 }
 
+.txtFeat1{
+  position: relative;
+  top:80px;
+}
+.txtFeat2{
+  position: relative;
+  left:660px;
+  top:80px;
+}
+.imgExp{
+  width: 50%;
+  position:relative;
+  left:25%;
+}
+.imgExp3{
+  width: 50%;
+  position:relative;
+  left:25%;
+}
+.card2{
+  position: relative;
+  top: 30px;
+}
+.card3{
+  position: relative;
+  top: 60px;
+}
 @media (max-width: 768px){
   .pill{
     height: 250px;
@@ -39,3 +82,19 @@
     top:20%;
   }
 }
+
+
+
+//REACT
+
+//crear variables
+//const [name, setName] = useState("Luis");
+
+//para usarla se ponen corchetes {name}
+
+/*
+{Colores}
+$success: #e35e4f;
+$primary:#2b52a6;
+$dark:#14213d;
+*/
