@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
   <title>Sprint2</title>
 </head>
 <body>
@@ -14,15 +16,17 @@
         <nav class="navbar navbar-expand-md pt-5">
           <div class="container-fluid">
             <img src="./Imagenes/logo-bookmark.svg">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="burger d-flex justify-content-center justify-content-md-start">
+                <img src="/Imagenes/icon-hamburger.svg">
+              </span>
             </button>
             <div class="navMenu collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <div class="d-flex">
+              <div class="d-md-flex justify-content-center">
                 <button class="btn ps-4 pe-4" type="button">FEATURES</button>
                 <button class="btn ps-4 pe-4" type="button">PRICING</button>
                 <button class="btn ps-4 pe-4" type="button">CONTACT</button>
-                <button class="btn ps-5 pe-5 btn-success shadow" type="button">LOGIN</button>
+                <button class="btn ps-5 pe-5 btn-success shadow text-light" type="button">LOGIN</button>
               </div>
             </div>
           </div>
@@ -30,11 +34,11 @@
     </div>
     <div class="row pt-5">
       <div class="col-md-5 order-2 pt-5">
-        <div class="h1">A Simple Bookmark Manager</div>
-        <p class="opacity-75">A clean and simple interface to organize your favorite websites. Open a new browser tab and see our sites load instantly. Try it for free.</p>
-        <div>
+        <div class="h1 text-center text-md-start">A Simple Bookmark Manager</div>
+        <p class="text-center text-md-start opacity-75">A clean and simple interface to organize your favorite websites. Open a new browser tab and see our sites load instantly. Try it for free.</p>
+        <div class="d-flex justify-content-center justify-content-md-start">
         <button class="btn btn-primary shadow me-3" type="button">Get it on Chrome</button>
-        <button class="btn shadow" type="button">Get it on Firefox</button>
+        <button class="btn shadow" type="button"><h6>Get it on Firefox</h6></button>
         </div>
       </div>
       <div class="img1 col-md-7 order-md-4 order-1 container-fluid">
@@ -51,9 +55,9 @@
     <div class="row pt-md-5 pt-sm-0"></div>
 
     <!-    --------------FEATURES-------------           -->
-
+    
     <div class="row d-flex justify-content-center pt-5">
-      <div class="col-6 text-center pt-5">
+      <div class="col-12 col-md-5 text-center pt-5">
         <h1>Features</h1>
         <p class="opacity-75">Our aim is to make it quick 
           and easy for you to acces your favourite websites. 
@@ -64,29 +68,33 @@
     <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
           <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home"
-              aria-selected="true">Simple Bookmarking</a>
+              aria-selected="true">
+              <h6>Simple Bookmarking</h6>
+              </a>
       </li>
       <li class="nav-item" role="presentation">
           <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-              aria-selected="false">Speedy Searching</a>
+              aria-selected="false">
+              <h6>Speedy Searching</h6>
+              </a>
       </li>
       <li class="nav-item" role="presentation">
           <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-              aria-selected="false">Easy Sharing</a>
-      </li>
-
-  
-  <!-    --------------Images carrousel-------------           -->
+              aria-selected="false"><h6>Easy Sharing</h6></a>
+      </li>  
   </ul>
+
+  <!-    --------------Tab content-------------           -->
+
   <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
         <div class="row">
-          <div class="col-6 pt-5">
+          <div class="col-12 col-md-6 pt-5">
             <div class="pill2 img-resposive square rounded-pill">
               <img src="./Imagenes/illustration-features-tab-1.svg" class="imgFeat img-fluid">
             </div>
           </div>
-          <div class="txtFeat1 col-6 pt-5">
+          <div class="txtFeat1 text-center text-md-start col-12 col-md-6 pt-2 pt-md-5">
             <h1>Bookmark in one click</h1>
             <p class="pt-2 opacity-75">Organize your bookmarks however you like. Our simple drag-and-drop interface gives
               you complete control over how you manage your favourite bookmark.
@@ -100,7 +108,7 @@
         <div class="pill2 img-resposive square rounded-pill">
           <img src="./Imagenes/illustration-features-tab-2.svg" class="imgFeat2 img-fluid pt-5">                
         </div>
-        <div class="txtFeat2 col-6 pt-5">
+        <div class="txtFeat1 text-center text-md-start col-12 col-md-6 pt-5">
           <h1>Intelligent search</h1>
           <p class="pt-2  opacity-75">Our powerful search feature will help you find saved sites in no time
             at all. No need to trawl through all of your bookmarks. 
@@ -112,7 +120,7 @@
         <div class="pill2 img-resposive square rounded-pill">
           <img src="./Imagenes/illustration-features-tab-3.svg" class="imgFeat3 img-fluid pt-5">      
         </div>
-        <div class="txtFeat2 col-6 pt-5">
+        <div class="txtFeat1 text-center text-md-start col-12 col-md-6 pt-5">
           <h1>Share your bookmarks</h1>
           <p class="pt-2 opacity-75">
             Easily share your bookmarks and collections with others.
@@ -128,7 +136,7 @@
   <div class="row pt-md-5 pt-sm-0" style="height:300px"></div>
   
   <div class="row d-flex justify-content-center pt-5">
-    <div class="col-6 text-center pt-5">
+    <div class="col-11 col-md-6 text-center pt-5">
       <h1>
         Download the extension
       </h1>
@@ -140,7 +148,7 @@
     </div>
   </div>
   <div class="row d-flex justify-content-center">
-    <div class="col-3 text-center p-3">
+    <div class="col-8 col-md-3 text-center p-3">
       <div class="card shadow p-3 border-light">
         <img src="./Imagenes/logo-chrome.svg" class="imgExp img-fluid">
         <h3 class="p-4">
@@ -155,7 +163,7 @@
         </button>
       </div>
     </div>
-    <div class="col-3 text-center p-3">
+    <div class="col-8 col-md-3 text-center p-3">
       <div class="card card2 shadow p-3 border-light">
         <img src="./Imagenes/logo-firefox.svg" class="imgExp img-fluid">
         <h3 class="p-4">
@@ -170,7 +178,7 @@
         </button>
       </div>
     </div>
-    <div class="col-3 text-center p-3">
+    <div class="col-8 col-md-3 text-center p-3">
       <div class="card card3 shadow p-3 border-light">
         <img src="./Imagenes/logo-opera.svg" class="imgExp3 img-fluid">
         <h3 class="p-4">
@@ -191,7 +199,7 @@
   <div class="row pt-5"></div>
   
   <div class="row d-flex justify-content-center pt-5">
-    <div class="col-6 text-center pt-5">
+    <div class="col-12 col-md-6 text-center pt-5">
       <h1>
         Frequently Asked Questions
       </h1>
@@ -201,7 +209,7 @@
       </p>
 
       <!-- dropdown menu-->
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion accordion-flush pb-5 pb-md-2" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -270,7 +278,7 @@
   <!-    --------------Sing-up-------------           -->
   <div class="row pt-5"></div>
   <div class="row d-flex justify-content-center pt-5 bg-dark text-light">
-    <div class="col-4 pt-3">
+    <div class="col-md-4 pt-3">
       <h5 class="text-center opacity-75">
         35.000+ ALREADY JOINED
       </h5>
@@ -279,24 +287,37 @@
       </h2>
     </div>
     <div class="row d-flex justify-content-center pt-3">
-      <form class="col-4 d-flex">
-        <input class="form-control me-2" type="email" placeholder="Enter your email address" aria-describedby="emailHelp">
-        <button class="btn btn-outline-success btn-success text-light shadow" type="submit">Contact Us</button>
+      <form class="col-12 col-md-4 d-md-flex">
+        <div class="col-12 col-md-9 me-1">
+          <input class="form-control" type="email" placeholder="Enter your email address" aria-describedby="emailHelp">
+        </div>
+        <div class="col-12 d-flex justify-content-center justify-content-md-start col-md-4 pt-2 pt-md-0">
+          <button class="btn btn-outline-success btn-success text-light shadow" type="submit">Contact Us</button>
+        </div>
       </form>
     </div>
     <div class="row pb-5"></div>
   </div>
 
   <!-    --------------footer-------------           -->
-  <div class="row bg-primary d-flex">
-    <div class="col-8 pt-4 pb-4 ps-5">
-      <img src="/Imagenes/logo-bookmark.svg">
+  <div class="row bg-primary d-flex justify-content-center justify-content-md-start text-center">
+    <div class="col-8 col-md-2 pb-2 pt-4">
+      <img src="/Imagenes/logo-bookmark.svg" class="imgFooter">
+      
+    </div>
+    <div class="col-8 col-md-1 pt-md-4">
       <button class="btn ps-4 pe-4 text-light" type="button">FEATURES</button>
+      
+    </div>
+    <div class="col-8 col-md-1 pt-md-4">
       <button class="btn ps-4 pe-4 text-light" type="button">PRICING</button>
+      
+    </div>
+    <div class="col-8 col-md-1 pt-md-4">
       <button class="btn ps-4 pe-4 text-light" type="button">CONTACT</button>
       
     </div>
-    <div class="col-4 pt-4 pb-4 d-flex pe-5 justify-content-end">
+    <div class="col-12 col-md-4 pt-4 pb-4 d-flex pe-md-5 justify-content-center justify-content-md-end">
       <button type="button" class="btn">
         <img src="/Imagenes/icon-facebook.svg" class="pe-3">
       </button>

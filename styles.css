@@ -1,89 +1,123 @@
-.navMenu{
-  margin-right:100px;
+.navMenu {
+  margin-right: 100px;
 }
 
-.group1{
+
+.group1 {
   position: relative;
 }
 
-.imagen{
-  position:relative;
+.imagen {
+  position: relative;
   top: -20%;
   left: -150px;
-  
 }
-.pill{
+.pill {
   background-color: #4c6cd4;
   height: 400px;
   width: 10000px;
   position: relative;
-  top:100px;
+  top: 100px;
   left: 30%;
 }
 
-.imgFeat{
-position: relative;
-bottom: 80px;
-left: 800px;
+.imgFeat {
+  position: relative;
+  bottom: 80px;
+  left: 800px;
 }
-.imgFeat2{
+.imgFeat2 {
   position: relative;
   bottom: 130px;
   left: 910px;
 }
-.imgFeat3{
+.imgFeat3 {
   position: relative;
   bottom: 130px;
   left: 920px;
 }
-.pill2{
+.pill2 {
   background-color: #4c6cd4;
   height: 350px;
   width: 1300px;
   position: absolute;
   top: 90%;
-  right:55%;
+  right: 55%;
 }
 
-.txtFeat1{
+.txtFeat1 {
   position: relative;
-  top:80px;
+  top: 80px;
 }
-.txtFeat2{
+.txtFeat2 {
   position: relative;
-  left:660px;
-  top:80px;
+  left: 660px;
+  top: 80px;
 }
-.imgExp{
+.imgExp {
   width: 50%;
-  position:relative;
-  left:25%;
+  position: relative;
+  left: 25%;
 }
-.imgExp3{
+.imgExp3 {
   width: 50%;
-  position:relative;
-  left:25%;
+  position: relative;
+  left: 25%;
 }
-.card2{
+.card2 {
   position: relative;
   top: 30px;
 }
-.card3{
+.card3 {
   position: relative;
   top: 60px;
 }
-@media (max-width: 768px){
-  .pill{
-    height: 250px;
-    top:20%;
+
+.tabCust{
+  border-bottom: 1px solid grey;
+}
+.imgFooter{
+  position: relative;
+  top: 5px;
+}
+#myTab li a { border:0}
+#myTab li.active a {border-bottom-color: #e35e4f;}
+
+@media (max-width: 768px) {
+  .navMenu{
+    margin-left:140px;
+    margin-right:100px;
   }
-  .pill2{
+  
+  .pill {
+    height: 300px;
+    top: 40px;
+  }
+  .imagen{
+    top: -30px;
+    width: 450px;  
+  }
+  .pill2 {
     height: 250px;
-    top:20%;
+    top: 120%;
+    right:40%
+  }
+  .imgFeat{
+    left:1065px;
+    width: 390px;
+  }
+  .imgFeat2{
+    left:1065px;
+    width: 390px;
+  }
+  .imgFeat3{
+    left:1065px;
+    width: 390px;
+  }
+  .txtFeat1{
+    top:320px;
   }
 }
-
-
 
 //REACT
 
